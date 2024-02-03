@@ -1,0 +1,1 @@
+torchrun --nproc_per_node 2 --master_port 1234 train.py --batch_size 128 --use_amp --init_lr 0.1 --random --img_margin 0.1 --loss_type 'circle' --epoch 10
